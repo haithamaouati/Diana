@@ -1,43 +1,37 @@
-# Trackdown
-Trackdown an IP address geolocation — fast, accurate, and reliable.
+# Diana
+Track down an IP address geolocation — fast, accurate, and reliable.
 
-```
-  _____                         _          _                            
- |_   _|  _ __    __ _    ___  | | __   __| |   ___   __      __  _ __  
-   | |   | '__|  / _` |  / __| | |/ /  / _` |  / _ \  \ \ /\ / / | '_ \ 
-   | |   | |    | (_| | | (__  |   <  | (_| | | (_) |  \ V  V /  | | | |
-   |_|   |_|     \__,_|  \___| |_|\_\  \__,_|  \___/    \_/\_/   |_| |_|
-```
+![preview](preview.png)
 
 ## Install
 
-To use the Trackdown script, follow these steps:
+To use the Diana script, follow these steps:
 
 1. Clone the repository:
 
     ```
-    git clone https://github.com/haithamaouati/Trackdown.git
+    git clone https://github.com/haithamaouati/Diana.git
     ```
 
-2. Change to the Trackdown directory:
+2. Change to the Diana directory:
 
     ```
-    cd Trackdown
+    cd Diana
     ```
     
 3. Change the file modes
     ```
-    chmod +x trackdown.sh
+    chmod +x diana.sh
     ```
     
 5. Run the script:
 
     ```
-    ./trackdown.sh
+    ./diana.sh
     ```
 ## Usage
 
-Usage: `./trackdown.sh -i <IP_ADDRESS>`
+Usage: `./diana.sh -i <IP_ADDRESS>`
 
 ##### Options:
 
@@ -49,7 +43,6 @@ Usage: `./trackdown.sh -i <IP_ADDRESS>`
 
 The script requires the following dependencies:
 
-- [figlet](): `pkg install figlet -y`
 - [curl](https://curl.se/): `pkg install curl - y`
 - [jq](https://stedolan.github.io/jq/): `pkg install jq -y`
 
@@ -62,4 +55,4 @@ Made with :coffee: by **Haitham Aouati**
 
 ## License
 
-Trackdown is licensed under [WTFPL license](LICENSE).
+Diana is licensed under [WTFPL license](LICENSE).
